@@ -1,0 +1,119 @@
+body{
+    background-color: rgb(252, 228, 248);
+ }
+ 
+ 
+ /*
+ The Formula:
+    selector{
+        property: value;
+    }
+ */
+ 
+ 
+ /* STEP 0: body
+    - Change the background-color of the webpage 
+    HINT:
+        selector = body
+        property = background-color
+        value = any CSS color you want!
+ */
+ 
+ 
+ 
+ 
+ 
+ 
+ /* STEP 1: h1
+    - Align the text to the center (text-align)
+    - Change the color of the text (color)
+ */
+ 
+ 
+ h1{
+    font-family: 'Times New Roman', Times, serif, Georgia;
+    color:rgb(0, 0, 0);
+    text-align: center;
+    border: 5px solid pink;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ 
+ 
+ /* STEP 2: h2
+    - Align the text to the center (text-align)
+    - Change the color of the text (color)
+    - Underline the text (text-decoration)
+ */
+ 
+ 
+ h2{
+    font-family: 'Times New Roman', Times, serif, Tahoma;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    color:cornflowerblue
+ }
+ 
+ 
+ 
+ 
+ /* STEP 3: Img
+    - Apply the following rule (display: block;)
+    - Center the images (margin-left and margin-right)
+    - Add a border to the images with any size, style, and color (border)
+    - Change the width of the images (width)
+ */
+ img{
+    filter: brightness(110%);
+    border-radius: 10px;
+    display: block;
+    margin-left: 600px;
+    margin-right: 600px;
+    width: 300px;
+    border: 3px solid darkblue;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ 
+ 
+ 
+ 
+ /* STEP 4: p
+    - Align the text to the center (text-align)
+ */
+ 
+ 
+ p{
+    text-align: center;
+    font-size: 20px;
+ }
+ 
+ 
+ /* STEP 5: a
+    -  Change the color of the link (color)
+ */
+ a{
+    color: rgb(233, 150, 164);
+    text-align: center;
+    font-size: 25px;
+ }
+ 
+ 
+ /* STEP 6: ul
+    - Center the text (text-align)
+    - Move the bullet points with the text (list-style-position: inside;)
+ */
+ ul{
+    text-align: center;
+    font-size: 25px;
+    list-style-position: inside;
+ }
+ 
