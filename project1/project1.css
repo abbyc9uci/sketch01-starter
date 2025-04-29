@@ -1,0 +1,212 @@
+@font-face {
+    src: url("../assets/fonts/Tempting\ -\ PERSONAL\ USE\ ONLY.otf");
+    font-family: tempting;
+}
+
+body{
+    background: linear-gradient(to right, rgb(249, 199, 240), rgb(255, 240, 181));
+ }
+ 
+ 
+ /*
+ The Formula:
+    selector{
+        property: value;
+    }
+ */
+ 
+ 
+ /* STEP 0: body
+    - Change the background-color of the webpage 
+    HINT:
+        selector = body
+        property = background-color
+        value = any CSS color you want!
+ */
+ 
+ 
+ 
+ 
+ 
+ 
+ /* STEP 1: h1
+    - Align the text to the center (text-align)
+    - Change the color of the text (color)
+ */
+ 
+ 
+ h1{
+    font-family: 'Times New Roman', Times, serif, Georgia;
+    color:rgb(0, 0, 0);
+    text-align: center;
+    border: 5px solid pink;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ 
+ 
+ /* STEP 2: h2
+    - Align the text to the center (text-align)
+    - Change the color of the text (color)
+    - Underline the text (text-decoration)
+ */
+ 
+ 
+ h2{
+    font-family: 'Times New Roman', Times, serif, Tahoma;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    color:cornflowerblue
+ }
+ 
+ 
+ 
+ 
+ /* STEP 3: Img
+    - Apply the following rule (display: block;)
+    - Center the images (margin-left and margin-right)
+    - Add a border to the images with any size, style, and color (border)
+    - Change the width of the images (width)
+ */
+ .game-images img {
+    filter: brightness(110%);
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    border: 3px solid darkblue;
+    margin-bottom: 100px;
+}
+ 
+ 
+ 
+ 
+ /* STEP 4: p
+    - Align the text to the center (text-align)
+ */
+ 
+ 
+ p{
+    text-align: center;
+    font-family: 'tempting';
+    font-size: 20px;
+ }
+ 
+ 
+ /* STEP 5: a
+    -  Change the color of the link (color)
+ */
+ .first-link {
+    display: block;
+    color: rgb(233, 150, 164);
+    text-align: left;
+    font-size: 40px;
+  }
+
+  a {
+    display: block;
+    color: rgb(233, 150, 164);
+    text-align: center;
+    font-size: 40px;
+  }
+ 
+ /* STEP 6: ul
+    - Center the text (text-align)
+    - Move the bullet points with the text (list-style-position: inside;)
+ */
+ ul{
+    text-align: center;
+    font-size: 25px;
+    list-style-position: inside;
+ }
+
+ .ascii-2 {
+    font-family: monospace;      
+    white-space: pre;            
+    font-size: 40px;             
+    color: #d72073;
+  }
+ 
+  .ascii-1 {
+    font-family: monospace; 
+    text-align: center;     
+    white-space: pre;            
+    font-size: 22px;             
+    color: #d72073;
+  }
+
+  .ascii-3 {
+    font-family: monospace;   
+    text-align: right;   
+    white-space: pre;            
+    font-size: 40px;             
+    color: #d72073;
+  }
+
+  .arrow {
+    font-size: 3em; 
+    color: #146177;  
+    text-align: center; 
+    font-family: Arial, sans-serif; 
+  }
+
+  .text-wrapper {
+    position: relative;
+    width: 400px;
+    height: 200px;
+  }
+  
+  .background-text {
+    font-size: 200px;
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  .Cat {
+    position: absolute;
+    top: 20px;
+    left: 200px;
+    width: 400px;
+    z-index: 1;
+  }
+
+  .easy-responsive {
+    text-align: center;
+  }
+  
+  .easy-responsive img {
+    width: 50%;  
+    height: auto;
+  }
+  
+  .easy-responsive p {
+    font-size: 3vw; 
+  }
+  
+  .box {
+    display: block; 
+    background-color: lightblue;
+    padding: 20px;
+  }
+  
+  .tiny p {
+    display: block;  
+    background-color: lightyellow;
+    padding: 10px;
+  }
+  
+  .tiny {
+    font-size: 5px;       
+    line-height: 1.2;     
+    color: darkslategray;
+    font-family: sans-serif;
+  }
+  
